@@ -3,8 +3,8 @@ import requests
 from google.generativeai import genai
 
 # Initialize API keys and endpoints
-gemini_api_key = "AIzaSyDfdG_V9mLb3nocnLKYxCxQV810WHS676k"
-bing_api_key = '2bea2d8a7d374b34aa2a3ac3485c2e76'
+gemini_api_key = 'replace_with_your_api_key'
+bing_api_key = 'replace_with_your_api_key'
 bing_api_url = 'https://api.bing.microsoft.com/v7.0/search'
 
 def perform_search(query):
